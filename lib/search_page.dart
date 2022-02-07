@@ -34,7 +34,7 @@ class _SearchPageState extends State<SearchPage> {
 
   Widget _buildListItem(BuildContext context, int index) {
     return Image.network(
-        'https://www.woolha.com/media/2020/03/flutter-circleavatar-minradius-maxradius.jpg',
+        'https://www.vhv.rs/dpng/d/426-4263064_circle-avatar-png-picture-circle-avatar-image-png.png',
         fit: BoxFit.cover);
   }
 }
