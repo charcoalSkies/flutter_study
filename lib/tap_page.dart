@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:insta_clone/account_page.dart';
 import 'package:insta_clone/home_page.dart';
+import 'package:insta_clone/search_page.dart';
 
 class TapPage extends StatefulWidget {
   @override
@@ -11,7 +12,7 @@ class _TapPageState extends State<TapPage> {
   int _selectedIndex = 0;
   List _pages = [
     HomePage(),
-    Text('Page2'),
+    SearchPage(),
     AccountPage(),
   ];
   @override
